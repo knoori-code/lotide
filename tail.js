@@ -1,4 +1,4 @@
-const assertEqual = function(actual, expected) {
+const assertEqual = function (actual, expected) {
   if (actual === expected) {
     console.log(`🟢🟢🟢Assertion Passed: ${actual} === ${expected}`);
   } else {
@@ -6,7 +6,7 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-const tail = function(array) {
+const tail = function (array) {
   const newArray = [];
   for (let i = 1; i < array.length; i++) {
     newArray.push(array[i]);
@@ -14,7 +14,7 @@ const tail = function(array) {
   return newArray;
 };
 
-console.log(tail([1,2,3,5,6]));
+console.log(tail([1, 2, 3, 5, 6]));
 // Test Case: Check the original array
 const words = ["Yo Yo", "Lighthouse", "Labs"];
 tail(words); // no need to capture the return value since we are not checking it
