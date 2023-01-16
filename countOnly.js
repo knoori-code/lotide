@@ -16,7 +16,7 @@ const countOnly = function (allItems, itemsToCount) {
     //   results[item] =+ 1;
     // } else {
     //   results[item] = 1;
-    // }
+    // }                          Try not to use nested ifs according to 
     if (itemsToCount[item]) {
       if (results[item]) {
         results[item] += 1;
