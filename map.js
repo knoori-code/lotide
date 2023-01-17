@@ -35,13 +35,15 @@ const map = function (array, callback) {
   return results;
 }
 
-const results = map(words, (word) => word[0]);
-console.log(results);
+// const results = map(words, (word) => word[0]);
+// console.log(results);
 
-assertArraysEqual(map(words, (word) => word[0]), ['g', 'c', 't', 'm', 't'])
-assertArraysEqual(map(words, (word) => word[0]), ['g', 'm', 't'])
-assertArraysEqual(map(words, (word) => word[0]), ['g', 'm'])
-assertArraysEqual(map(words2, (word) => word[0]), ['J', 'S', 'P', 'K', 'R'])
-assertArraysEqual(map(words2, (word) => word[0]), ['J', 'S', 'P', 'K', 'R', 'O', 'T'])
+// assertArraysEqual(map(words, (word) => word[0]), ['g', 'c', 't', 'm', 't'])
+// assertArraysEqual(map(words, (word) => word[0]), ['g', 'm', 't'])
+// assertArraysEqual(map(words, (word) => word[0]), ['g', 'm'])
+// assertArraysEqual(map(words2, (word) => word[0]), ['J', 'S', 'P', 'K', 'R'])
+// assertArraysEqual(map(words2, (word) => word[0]), ['J', 'S', 'P', 'K', 'R', 'O', 'T'])
+
+module.exports = map;
 
 

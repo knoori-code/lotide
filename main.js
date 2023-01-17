@@ -1,5 +1,5 @@
-const sayHelloTo = require('./moduleCheck.js');
+// const sayHelloTo = require('./moduleCheck.js');
 
-console.log('sayHelloTo: ', sayHelloTo);
+// console.log('sayHelloTo: ', sayHelloTo);
 
-sayHelloTo('Bernie');
+// sayHelloTo('Bernie');

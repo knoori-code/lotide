@@ -23,23 +23,25 @@ const countLetter = function (sentence) {
 return letterObject
 }
 
-console.log(countLetter("niccccceeeee"))
+// console.log(countLetter("niccccceeeee"))
 
 
-// Gary's example
-const countLetter = function(str) {
-  result = {};
+// // Gary's example
+// const countLetter = function(str) {
+//   result = {};
 
-  for (const letter of str) {
-    if (letter === ' ') {
-      continue
-    }
-    if (!result[letter]) {
-      result[letter] = 0;
-    }
+//   for (const letter of str) {
+//     if (letter === ' ') {
+//       continue
+//     }
+//     if (!result[letter]) {
+//       result[letter] = 0;
+//     }
 
-    results[letter]++
+//     results[letter]++
 
-  }
-  return result
-}
+//   }
+//   return result
+// }
+
+module.exports = countLetter
